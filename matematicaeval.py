@@ -1,0 +1,5 @@
+numero1= int(input("Olá usuário, digite um número qualquer de 0 á 10: "))
+numero2= int(input("Olá usuário, digite outro número qualquer de 0 á 10:  "))
+resultado = eval('numero1 + numero2')
+print(resultado)
+# no eval a string(tudo que fica dentro das aspas se torna um comnado. Então no eval voce deve colocar as aspas para dentro do ()
